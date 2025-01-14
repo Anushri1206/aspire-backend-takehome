@@ -1,0 +1,550 @@
+{
+    "concept": [
+        {
+            "name": "String Indexing",
+            "subject": "python programming",
+            "summary": "accessing specific characters in a string using their index positions.",
+            "difficulty": 2
+        },
+        {
+            "name": "For Loop Iteration",
+            "subject": "python programming",
+            "summary": "using a for loop to iterate through each character in a string and execute a block of code.",
+            "difficulty": 2
+        },
+        {
+            "name": "Slice Operation",
+            "subject": "python programming",
+            "summary": "extracting a subset of characters from a string using a slice operation with start and end indices.",
+            "difficulty": 3
+        },
+        {
+            "name": "While Loop Iteration",
+            "subject": "python programming",
+            "summary": "",
+            "difficulty": 3
+        },
+        {
+            "name": "Looping Through Strings",
+            "subject": "python programming",
+            "summary": "repeating a block of code for each character or a subset of characters in a string.",
+            "difficulty": 3
+        },
+        {
+            "name": "Inclusive Indexing",
+            "subject": "python programming",
+            "summary": "recognizing that the final index in a slice operation is not included in the result.",
+            "difficulty": 2
+        },
+        {
+            "name": "String Slicing",
+            "subject": "python programming",
+            "summary": "understanding how to extract subsets of characters from a string using slice operations.",
+            "difficulty": 3
+        },
+        {
+            "name": "Inclusive Vs Exclusive Indexing",
+            "subject": "python programming",
+            "summary": "recognizing that the final index in a slice operation is not inclusive.",
+            "difficulty": 2
+        },
+        {
+            "name": "String Manipulation",
+            "subject": "python programming",
+            "summary": "modifying strings by changing case, replacing characters, and other advanced operations.",
+            "difficulty": 4
+        },
+        {
+            "name": "Argument Type",
+            "subject": "python programming",
+            "summary": "understanding the importance of argument types in functions, even in languages like python that do not require explicit type specification.",
+            "difficulty": 2
+        },
+        {
+            "name": "Function Definition",
+            "subject": "python programming",
+            "summary": "learning the basic structure and syntax of defining a function in python.",
+            "difficulty": 2
+        },
+        {
+            "name": "Complex Functions",
+            "subject": "python programming",
+            "summary": "creating functions that perform more complex operations, such as conditional statements or multiple arguments.",
+            "difficulty": 4
+        },
+        {
+            "name": "Modular Programming",
+            "subject": "python programming",
+            "summary": "understanding the concept of breaking down code into reusable chunks, such as functions, to improve efficiency and readability.",
+            "difficulty": 4
+        },
+        {
+            "name": "Function Basics",
+            "subject": "python programming",
+            "summary": "understanding the basic concept of a function in python, including its definition and purpose.",
+            "difficulty": 2
+        },
+        {
+            "name": "Modular Functions",
+            "subject": "python programming",
+            "summary": "understanding the importance of keeping functions modular and simple to avoid complexity.",
+            "difficulty": 2
+        },
+        {
+            "name": "Function Calls",
+            "subject": "python programming",
+            "summary": "understanding how to invoke a function with the appropriate arguments.",
+            "difficulty": 2
+        },
+        {
+            "name": "Default Values",
+            "subject": "python programming",
+            "summary": "understanding how to specify default values for function arguments and how these values are used when no other value is provided.",
+            "difficulty": 2
+        },
+        {
+            "name": "Function Documentation",
+            "subject": "python programming",
+            "summary": "learning the importance of documenting functions, including writing docstrings to specify expected input and output types.",
+            "difficulty": 2
+        },
+        {
+            "name": "Defining A Function",
+            "subject": "python programming",
+            "summary": "creating a new function in python using the def keyword, specifying the function name, arguments, and return value.",
+            "difficulty": 3
+        },
+        {
+            "name": "Function Examples",
+            "subject": "python programming",
+            "summary": "analyzing examples of functions, such as the square function or the sorted function, to understand their input, output, and side effects.",
+            "difficulty": 3
+        },
+        {
+            "name": "Function Return Types",
+            "subject": "python programming",
+            "summary": "understanding how functions can return different data types, including integers, strings, and booleans.",
+            "difficulty": 2
+        },
+        {
+            "name": "Argument Order",
+            "subject": "python programming",
+            "summary": "understanding how the order of arguments matters when calling a function, and how keyword arguments can be used to specify arguments out of order.",
+            "difficulty": 2
+        },
+        {
+            "name": "Function Arguments",
+            "subject": "python programming",
+            "summary": "understanding how to pass input values into a function using arguments and how functions can have multiple arguments.",
+            "difficulty": 2
+        },
+        {
+            "name": "Duck Typing",
+            "subject": "python programming",
+            "summary": "understanding python's approach to typing, where the suitability of an object is determined by the presence of certain methods or properties, rather than the actual type of the object.",
+            "difficulty": 3
+        },
+        {
+            "name": "Positional Arguments",
+            "subject": "python programming",
+            "summary": "understanding how arguments are passed to functions based on their position in the function definition.",
+            "difficulty": 2
+        },
+        {
+            "name": "Keyword Arguments",
+            "subject": "python programming",
+            "summary": "learning how to pass arguments to functions using keyword arguments, which allows for more flexibility in the order of arguments.",
+            "difficulty": 2
+        },
+        {
+            "name": "Typeerror",
+            "subject": "python programming",
+            "summary": "recognizing the error that occurs when attempting to perform an operation with an argument of the wrong type.",
+            "difficulty": 2
+        },
+        {
+            "name": "Type Error Handling",
+            "subject": "python programming",
+            "summary": "learning how to handle typeerrors in python, including understanding the concept of duck typing and documenting code to avoid type errors.",
+            "difficulty": 3
+        },
+        {
+            "name": "Multiple Function Arguments",
+            "subject": "python programming",
+            "summary": "learning how to define and use functions with multiple arguments, including positional and keyword arguments.",
+            "difficulty": 3
+        },
+        {
+            "name": "Overriding Default Values",
+            "subject": "python programming",
+            "summary": "learning how to override default values for function arguments when calling the function.",
+            "difficulty": 2
+        },
+        {
+            "name": "Function Type",
+            "subject": "python programming",
+            "summary": "recognizing that a function in python belongs to a special type called 'function'.",
+            "difficulty": 2
+        },
+        {
+            "name": "Function Reusability",
+            "subject": "python programming",
+            "summary": "understanding the concept of reusing functions to avoid duplicating code and improve code efficiency.",
+            "difficulty": 2
+        },
+        {
+            "name": "Function Return",
+            "subject": "python programming",
+            "summary": "learning how a function returns a result after performing an operation, and how to specify a return value.",
+            "difficulty": 2
+        },
+        {
+            "name": "Default Argument Values",
+            "subject": "python programming",
+            "summary": "understanding how to define default values for function arguments and how they affect function calls.",
+            "difficulty": 3
+        },
+        {
+            "name": "Input And Output",
+            "subject": "python programming",
+            "summary": "understanding the role of input and output in functions, including how to pass input values and receive output results.",
+            "difficulty": 2
+        },
+        {
+            "name": "Required Positional Arguments",
+            "subject": "python programming",
+            "summary": "identifying arguments that must be provided when calling a function because they do not have default values.",
+            "difficulty": 2
+        },
+        {
+            "name": "Conditional Statements In Functions",
+            "subject": "python programming",
+            "summary": "understanding how to use conditional statements, such as if-else statements, within functions to control the flow of execution.",
+            "difficulty": 3
+        },
+        {
+            "name": "Looping In Functions",
+            "subject": "python programming",
+            "summary": "implementing loops (like for loops) within functions to perform repetitive tasks.",
+            "difficulty": 3
+        },
+        {
+            "name": "Function Execution",
+            "subject": "python programming",
+            "summary": "calling a function by referencing its name followed by parentheses and passing in any required arguments.",
+            "difficulty": 2
+        },
+        {
+            "name": "Syntaxerror: Positional Argument Follows Keyword Argument",
+            "subject": "python programming",
+            "summary": "understanding the error that occurs when a positional argument is placed after a keyword argument in a function call.",
+            "difficulty": 3
+        }
+    ],
+    "concept_to_concept": [
+        {
+            "concept_name": "Argument Type",
+            "prereq_name": "Function Arguments"
+        },
+        {
+            "concept_name": "Complex Functions",
+            "prereq_name": "Conditional Statements In Functions"
+        },
+        {
+            "concept_name": "Complex Functions",
+            "prereq_name": "Function Reusability"
+        },
+        {
+            "concept_name": "Complex Functions",
+            "prereq_name": "Looping In Functions"
+        },
+        {
+            "concept_name": "Complex Functions",
+            "prereq_name": "Modular Functions"
+        },
+        {
+            "concept_name": "Default Values",
+            "prereq_name": "Function Arguments"
+        },
+        {
+            "concept_name": "Function Arguments",
+            "prereq_name": "Function Definition"
+        },
+        {
+            "concept_name": "Function Calls",
+            "prereq_name": "Function Return"
+        },
+        {
+            "concept_name": "Function Definition",
+            "prereq_name": "Function Examples"
+        },
+        {
+            "concept_name": "Function Examples",
+            "prereq_name": "Function Documentation"
+        },
+        {
+            "concept_name": "Function Examples",
+            "prereq_name": "Function Type"
+        },
+        {
+            "concept_name": "Function Examples",
+            "prereq_name": "Input And Output"
+        },
+        {
+            "concept_name": "Function Return",
+            "prereq_name": "Keyword Arguments"
+        },
+        {
+            "concept_name": "Function Return",
+            "prereq_name": "Overriding Default Values"
+        },
+        {
+            "concept_name": "Function Return",
+            "prereq_name": "Required Positional Arguments"
+        },
+        {
+            "concept_name": "Function Reusability",
+            "prereq_name": "Function Calls"
+        },
+        {
+            "concept_name": "Inclusive Indexing",
+            "prereq_name": "Slice Operation"
+        },
+        {
+            "concept_name": "Inclusive Vs Exclusive Indexing",
+            "prereq_name": "String Indexing"
+        },
+        {
+            "concept_name": "Keyword Arguments",
+            "prereq_name": "Function Arguments"
+        },
+        {
+            "concept_name": "Looping Through Strings",
+            "prereq_name": "For Loop Iteration"
+        },
+        {
+            "concept_name": "Looping Through Strings",
+            "prereq_name": "Inclusive Vs Exclusive Indexing"
+        },
+        {
+            "concept_name": "Looping Through Strings",
+            "prereq_name": "String Manipulation"
+        },
+        {
+            "concept_name": "Modular Functions",
+            "prereq_name": "Function Calls"
+        },
+        {
+            "concept_name": "Modular Functions",
+            "prereq_name": "Modular Programming"
+        },
+        {
+            "concept_name": "Multiple Function Arguments",
+            "prereq_name": "Function Arguments"
+        },
+        {
+            "concept_name": "Overriding Default Values",
+            "prereq_name": "Default Values"
+        },
+        {
+            "concept_name": "Positional Arguments",
+            "prereq_name": "Argument Order"
+        },
+        {
+            "concept_name": "Positional Arguments",
+            "prereq_name": "Function Arguments"
+        },
+        {
+            "concept_name": "Required Positional Arguments",
+            "prereq_name": "Positional Arguments"
+        },
+        {
+            "concept_name": "Slice Operation",
+            "prereq_name": "String Slicing"
+        },
+        {
+            "concept_name": "String Manipulation",
+            "prereq_name": "Input And Output"
+        },
+        {
+            "concept_name": "String Slicing",
+            "prereq_name": "Looping Through Strings"
+        },
+        {
+            "concept_name": "Syntaxerror: Positional Argument Follows Keyword Argument",
+            "prereq_name": "Keyword Arguments"
+        },
+        {
+            "concept_name": "Syntaxerror: Positional Argument Follows Keyword Argument",
+            "prereq_name": "Positional Arguments"
+        },
+        {
+            "concept_name": "Typeerror",
+            "prereq_name": "Argument Type"
+        },
+        {
+            "concept_name": "Typeerror",
+            "prereq_name": "Function Return Types"
+        }
+    ],
+    "concept_to_collection": [
+        {
+            "concept_name": "Argument Order",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Argument Type",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Complex Functions",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Conditional Statements In Functions",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Default Values",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "For Loop Iteration",
+            "collection_id": 3
+        },
+        {
+            "concept_name": "For Loop Iteration",
+            "collection_id": 1
+        },
+        {
+            "concept_name": "Function Arguments",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Function Calls",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Function Definition",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Function Documentation",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Function Examples",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Function Return",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Function Return Types",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Function Reusability",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Function Type",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Inclusive Vs Exclusive Indexing",
+            "collection_id": 3
+        },
+        {
+            "concept_name": "Inclusive Vs Exclusive Indexing",
+            "collection_id": 1
+        },
+        {
+            "concept_name": "Input And Output",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Keyword Arguments",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Looping In Functions",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Looping Through Strings",
+            "collection_id": 1
+        },
+        {
+            "concept_name": "Modular Functions",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Modular Programming",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Multiple Function Arguments",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Overriding Default Values",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Positional Arguments",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Required Positional Arguments",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Slice Operation",
+            "collection_id": 1
+        },
+        {
+            "concept_name": "String Indexing",
+            "collection_id": 1
+        },
+        {
+            "concept_name": "String Manipulation",
+            "collection_id": 1
+        },
+        {
+            "concept_name": "String Slicing",
+            "collection_id": 1
+        },
+        {
+            "concept_name": "Syntaxerror: Positional Argument Follows Keyword Argument",
+            "collection_id": 2
+        },
+        {
+            "concept_name": "Typeerror",
+            "collection_id": 2
+        }
+    ],
+    "concept_collection": [
+        {
+            "label": "Introduction to Functions",
+            "content_summary": null,
+            "id": 2
+        },
+        {
+            "label": "Loops & Iterables",
+            "content_summary": null,
+            "id": 3
+        },
+        {
+            "label": "Working with Strings",
+            "content_summary": null,
+            "id": 1
+        },
+        {
+            "label": "Conditionals",
+            "content_summary": null,
+            "id": 4
+        }
+    ]
+}
