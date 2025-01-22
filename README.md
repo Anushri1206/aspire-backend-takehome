@@ -58,3 +58,15 @@ If any issues occur due to incorrect DB seeding or Docker, please contact us and
 **Problem:** I've made changes to the code but nothing seems different.
 
 **Solution:** It's possible Docker is not reloading properly on a code change, try restarting the application container and executing the code in question again. If this doesn't work, try printing something at the top of one of the API endpoint functions found in app/routes, restart the container for safety, and query that endpoint. If it prints to the docker logs then your changes have been applied properly, if it doesn't print you can contact us and we'll try to help troubleshoot.
+
+**Submission:**
+DO NOT FORK THIS REPO TO CREATE YOUR SUBMISSION. 
+
+Instead, follow these steps: 
+- Copy the clone link of this repo.
+- Go to YOUR GitHub profile and create a new repository.
+- On the creation page, you will see an option(in blue hyperlink color) at the top called "Import a Repository".
+- Click on it and input the clone link in the field "The URL for your source repository".
+- Finally, give your repo a name and hit "Begin Import"(Green button at the bottom right).
+
+You should use this repository for your development and finally share it with us.
