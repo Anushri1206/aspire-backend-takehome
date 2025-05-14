@@ -1,6 +1,6 @@
 # ASPIRE Backend Developer Take-home Assignment
 
-If you're reading this, it means you are being considered for a Backend Developer position on the ASPIRE project. This position involves blending your talents as a backend web developer and AI-researcher to create integrated, LLM-powered services for the students and staff of UCSD. To demonstrate your skills, this repo has been constructed as a shrunk down and simplified form of the ASPIRE application, utilizing much of the tech-stack, patterns, database tables, and data as the real thing. For context, ASPIRE is an application mapping course contents, tracking student knowledge, and facilitating various educational aids or interventions, the ultimate goal being to improve student outcomes university wide. All of these systems involve one or several LLM integrations to assist in or automate the process, your task is to create and integrate one of these LLM integrations and offer it as a service via an API endpoint. 
+This position involves blending your talents as a backend web developer and AI-researcher to create integrated, LLM-powered services for the students and staff of UCSD. To demonstrate your skills, this repo has been constructed as a shrunk down and simplified form of the ASPIRE application, utilizing much of the tech-stack, patterns, database tables, and data as the real thing. For context, ASPIRE is an application mapping course contents, tracking student knowledge, and facilitating various educational aids or interventions, the ultimate goal being to improve student outcomes university wide. All of these systems involve one or several LLM integrations to assist in or automate the process, your task is to create and integrate one of these LLM integrations and offer it as a service via an API endpoint. 
 
 More specifically, you have been provided with tables and data representing a course's domain, this includes some of the concepts taught in an 'Introduction to Python' course, the relationships between those concepts (concept_a is prerequisite to learning concept_b), the modules or 'concept_collections' of the course, and the junctions connecting concepts to the modules they belong to. Unfortunately, the professor forgot to write a summary for their modules. On top of being a handy reference, this summary is useful context for the LLM when performing actions related to the contents of the module, luckily, most concepts do have their own content summary. Using the data and tables provided to you, we would like you to create and integrate a service that generates a summary of the contents of a module, and then updates the matching 'concept_collection' database entry with that summary. Your service should be accessible via a corresponding API endpoint and conform to the repository's preexisting hexagonal architecture and protocols. The methods and data you use to complete this task are up to you, some basic services and database interfaces have been provided as examples, but you are free to modify these or create new ones as required. 
 
@@ -25,7 +25,7 @@ For applicants using MacOS, it should be as simple as [Installing](https://docs.
 For those on Windows, if you have not previously setup Docker be warned, its often a **[Major Pain](https://www.imdb.com/title/tt0110443/)**. If this is you, please feel free to contact us so we can walk you through the setup process before starting the 24 hour countdown. 
 
 ### Starting the App
-1) Copy + Paste the '.env.template file' at the root level of the repository (same place as the template), rename to '.env', then set the 'OPENAI_API_KEY' variable to the API key provided to you.
+1) Copy + Paste the '.env.template file' at the root level of the repository (same place as the template), rename to '.env', then create a GEMINI_API_KEY and use this for all your LLM calls. 
 2) Start Docker Desktop.
 3) Navigate to the working directory of this repo in your terminal.
 4) Run 'docker volume create takehome-db'
@@ -41,7 +41,7 @@ For those on Windows, if you have not previously setup Docker be warned, its oft
 There are three files named 'llm_services.py', one at app/domain/services, one at app/domain/protocols/services, and one at app/routes. These have been created for you to write your service and api endpoint respectively. It is expected that additional services and DB interfaces will be required to complete this task and it will be up to you to decide the appropriate locations for these methods, examples can be found in the 'concept.py' and 'concept_collection.py' files for reference. 
 
 **Key Points:**
-- If using the provided API key, **ONLY USE 'gpt-3.5-turbo', 'gpt-3.5-turbo-instruct, or any other gpt-3.5 based models'** for LLM queries, other models are restricted by the key.
+- Use the gemini 2.5 model.
 - AI assistance *is* allowed but be aware that obvious over reliance will count against you.
 - Try to use the pre-existing dependencies that come with this repo if possible, they should be sufficient to complete this task. Additional dependencies may be added if required, however, we'll expect some added value to result from the inclusion and for you to explain your reasoning.  
 - This repo is structured so dataflow from the DB to the API is as follows: app/infrastructure/repositories -> app/domain/services -> app/routes
@@ -70,3 +70,5 @@ Instead, follow these steps:
 - Finally, give your repo a name and hit "Begin Import"(Green button at the bottom right).
 
 You should use this repository for your development and finally share it with us.
+
+
